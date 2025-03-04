@@ -1,0 +1,69 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url('./back.svg.jpg');
+    background-size: cover;
+    padding: 65px;
+}
+.image_overly {
+    content: "";
+    top: 167px;
+    right: 0;
+    width: 50%; 
+    height: 82.5%;
+    background-image: url('./img2.svg.png');
+    background-position: center;
+    border: #6f42c1 solid 15px;
+    border-right: 0px;
+    border-bottom: 0px;
+    z-index: 1;
+    position: absolute;
+}
+.text-content {
+    max-width: 50%;
+}
+.text-content h1 {
+    font-size: 36px;
+    color: #1e1e1e;
+    margin-bottom: 20px;
+}
+
+.text-content p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    font-size: 22px;
+    border-radius: 22px;
+    margin-right: 10px;
+    gap: 10px;
+}
+
+.iphone {
+    background: #ffc107;
+    color: #000;
+}
+
+.android {
+    background: #fff;
+    border: 2px solid #333;
+}
+
+.image-content img {
+    width: 300px;
+    right: 300px;
+    top: 70px;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
